@@ -29,3 +29,13 @@ Sobe os arquivos e alterações do repositório local para a nuvem
 ```
 git push
 ```
+
+Mostra o histórico de commits
+```
+git log
+```
+
+Mostra o histórico de commits de forma resumida
+```
+git log --oneline
+```
