@@ -47,3 +47,18 @@ Visualiza o que está diferente no projeto
 ```
 git status
 ```
+
+Voltando um arquivo a um estado anterior:
+```
+# Para verificar o código do commit
+git log --oneline
+
+# Para reverter alteração localmente
+git restore --source <codigo> <arquivo ou .>
+
+# Para comitar as alterações localmente
+git commit <arquivo> -m "Mensagem do commit"
+
+# Para subir a reversão para o GitHub
+git push
+```
