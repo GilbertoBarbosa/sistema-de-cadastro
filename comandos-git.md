@@ -12,20 +12,22 @@ git add .
 
 Faz um commit
 ```
-git commit -m "Mensagem commit"
+git commit -m  <arquivo> "Mensagem commit"
 ```
 
 Copia um repositório da nuvem (github) para a máquina local (git)
+Grava por cima de um repositório já existente.
+É realizado só no início do projeto
 ```
 git clone <repositorio>
 ```
 
-Atualiza um repositório local com base no repositório da nuvem
+Atualiza um repositório local com base no repositório da nuvem.
 ```
-git pull
+git pull <repositório>
 ```
 
-Sobe os arquivos e alterações do repositório local para a nuvem
+Sobe as alterações (comitadas) do repositório local para a nuvem (GitHub)
 ```
 git push
 ```
@@ -38,4 +40,9 @@ git log
 Mostra o histórico de commits de forma resumida
 ```
 git log --oneline
+```
+
+Visualiza o que está diferente no projeto
+```
+git status
 ```
