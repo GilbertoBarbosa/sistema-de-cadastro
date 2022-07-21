@@ -10,7 +10,7 @@ Adiciona alterações nos arquivos
 git add .
 ```
 
-Faz um commit
+Faz um commit - Para todos arquivos digite . após o commit
 ```
 git commit -m  <arquivo> "Mensagem commit"
 ```
