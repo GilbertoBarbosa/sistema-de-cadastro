@@ -28,8 +28,9 @@ git pull <repositório>
 ```
 
 Sobe as alterações (comitadas) do repositório local para a nuvem (GitHub)
+origin main (divisão principal)
 ```
-git push
+git push origin main
 ```
 
 Mostra o histórico de commits
