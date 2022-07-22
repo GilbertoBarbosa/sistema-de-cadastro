@@ -62,3 +62,8 @@ git commit <arquivo> -m "Mensagem do commit"
 # Para subir a reversão para o GitHub
 git push
 ```
+
+Criando uma Tag no Git
+```
+git tag -a v1.0.0
+```
