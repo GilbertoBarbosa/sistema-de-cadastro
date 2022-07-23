@@ -70,3 +70,16 @@ Criando uma Tag no Git
 ```
 git tag -a v1.0.0
 ```
+
+Branches
+```
+# Criando uma nova branche
+git checkout -b <nome>
+
+# Mudando de breach
+git switch main
+
+# Enviando alterações para o GitHub
+git push origin <nome da branche>
+
+```
