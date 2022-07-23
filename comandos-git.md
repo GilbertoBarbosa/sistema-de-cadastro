@@ -25,6 +25,9 @@ git clone <repositorio>
 Atualiza um repositório local com base no repositório da nuvem.
 ```
 git pull <repositório>
+
+# Integra as mudanças de um branch para outro
+git pull --rebase
 ```
 
 Sobe as alterações (comitadas) do repositório local para a nuvem (GitHub)
