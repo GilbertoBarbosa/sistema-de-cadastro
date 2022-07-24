@@ -1,5 +1,15 @@
 # Comandos GIT mais comuns
 
+Configurações Iniciais
+```
+# Cadastrando nome
+git config --local/global user.name = "Nome do usuário Git" 
+
+# Cadastrando email
+git config --local/global user.email = "E-mail do usuário Git"
+
+```
+
 Inicia um novo repositório
 ```
 git ini
