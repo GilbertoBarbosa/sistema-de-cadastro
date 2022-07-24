@@ -12,7 +12,8 @@ git config --local/global user.email = "E-mail do usuário Git"
 
 Inicia um novo repositório
 ```
-git ini
+git init
+git init --bare #indica que o repositório é puro
 ```
 
 Adiciona alterações nos arquivos
@@ -56,6 +57,11 @@ Mostra o histórico de commits de forma resumida
 git log --oneline
 ```
 
+Mostra o histórico de commits de forma detalhada
+```
+git log -p
+```
+
 Visualiza o que está diferente no projeto
 ```
 git status
@@ -79,6 +85,15 @@ git push
 Criando uma Tag no Git
 ```
 git tag -a v1.0.0
+```
+
+Git Remote
+```
+# Lista os repositórios remotos disponíveis
+git remote
+
+# Adicionar novo repositório
+git remote add <nome> <endereço>
 ```
 
 Branches
