@@ -130,9 +130,16 @@ git diff <hash cod1>...<hash cod2>
 git diff
 ```
 
-Criando uma Tag no Git
+Versões no Git
 ```
+# Inserir uma nova Tag
 git tag -a v1.0.0
+
+# Listar as Tags
+git tag
+
+# Enviar a versão para o servidor
+git push <servidor> <tag>
 ```
 
 Git Remote
