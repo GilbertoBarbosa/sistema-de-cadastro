@@ -47,19 +47,19 @@ origin main (divisão principal)
 git push origin main
 ```
 
-Mostra o histórico de commits
+Git log
 ```
+# Mostra o histórico de commits
 git log
-```
 
-Mostra o histórico de commits de forma resumida
-```
+# Mostra o histórico de commits de forma resumida (uma linha)
 git log --oneline
-```
 
-Mostra o histórico de commits de forma detalhada
-```
+# Mostra o histórico de commits de forma detalhada
 git log -p
+
+# Mostra o histórico de commits de forma gráfica
+git log -graph
 ```
 
 Visualiza o que está diferente no projeto
