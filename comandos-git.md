@@ -76,6 +76,18 @@ Visualiza o que está diferente no projeto
 git status
 ```
 
+Desfazendo alterações
+```
+# Desfaz alterações não commitadas
+git restore <arquivo>
+
+# Desmarca arquivos marcadados para commitar
+git restore --staged <arquivo>
+
+# Reverter um commit ja realizado
+git revert <rash do commit a ser revertido>
+```
+
 Voltando um arquivo a um estado anterior:
 ```
 # Para verificar o código do commit
