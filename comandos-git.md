@@ -121,6 +121,15 @@ git stash drop
 git stash pop
 ```
 
+Git diff
+```
+# Mostrando a diferença do código entre commits
+git diff <hash cod1>...<hash cod2>
+
+# Mostrando o que não foi commitado
+git diff
+```
+
 Criando uma Tag no Git
 ```
 git tag -a v1.0.0
