@@ -103,6 +103,24 @@ git commit <arquivo> -m "Mensagem do commit"
 git push
 ```
 
+Guardando alterações para depois
+```
+# Salva alterações para depois
+git stash
+
+# Lista alterações salvas
+git stash list
+
+# Inclui alteração guardada no arquivo
+git stash apply <código da alteração>
+
+# Exclui alteração guardada
+git stash drop
+
+# Inclui a alteração e exclui da stash
+git stash pop
+```
+
 Criando uma Tag no Git
 ```
 git tag -a v1.0.0
