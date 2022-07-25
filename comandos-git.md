@@ -33,6 +33,15 @@ Grava por cima de um repositório já existente.
 git clone <repositorio>
 ```
 
+Merge e Rebase
+```
+# Junta os trabalhos e gera um merge commit
+git merge <branch>
+
+# Aplica os commits de outra branch na branch atual
+git rebase <branch>
+```
+
 Atualiza um repositório local com base no repositório da nuvem.
 ```
 git pull <repositório>
