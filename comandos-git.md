@@ -151,6 +151,12 @@ git remote
 git remote add <nome> <endereço>
 ```
 
+Incluir arquivo(s) no último commit
+```
+git add .
+git commit --amend
+
+
 Branches
 ```
 # Criando uma nova branche
