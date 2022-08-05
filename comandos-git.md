@@ -78,8 +78,11 @@ git status
 
 Desfazendo alterações
 ```
-# Desfaz alterações não commitadas
+# Desfaz alterações não commitadas em um arquivo
 git restore <arquivo>
+
+# Desfaz alterações não commitadas em todos os arquivos
+git restore .
 
 # Desmarca arquivos marcadados para commitar
 git restore --staged <arquivo>
